@@ -1,8 +1,8 @@
-%define real_version 0.1-beta.4
+%define real_version 0.1
 
 Name:		blogc
 Version:	0.1
-Release:	0.1.beta4%{?dist}
+Release:	1%{?dist}
 License:	BSD
 Group:		Applications/Text
 Summary:	A blog compiler
@@ -40,5 +40,8 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Wed Sep 16 2015 Rafael G. Martins <rafael@rafaelmartins.eng.br> 0.1-1
+- First stable release.
+
 * Mon Sep 14 2015 Rafael G. Martins <rafael@rafaelmartins.eng.br> 0.1-0.1.beta4
 - Initial package.
