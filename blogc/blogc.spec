@@ -1,7 +1,7 @@
-%define real_version 0.1
+%define real_version 0.2.1
 
 Name:		blogc
-Version:	0.1
+Version:	0.2.1
 Release:	1%{?dist}
 License:	BSD
 Group:		Applications/Text
