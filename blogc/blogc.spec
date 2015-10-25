@@ -1,7 +1,7 @@
-%define real_version 0.3
+%define real_version 0.4
 
 Name:		blogc
-Version:	0.3
+Version:	0.4
 Release:	1%{?dist}
 License:	BSD
 Group:		Applications/Text
@@ -40,6 +40,9 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Sun Oct 25 2015 Rafael G. Martins <rafael@rafaelmartins.eng.br> 0.4-1
+- New release.
+
 * Fri Oct 16 2015 Rafael G. Martins <rafael@rafaelmartins.eng.br> 0.3-1
 - New release.
 
